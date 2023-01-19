@@ -1,0 +1,23 @@
+
+
+body {
+    background-color: #1a1a1a;
+    font-family: basic-commercial-light;
+}
+
+/* creating a4 size  */
+.page {
+    background: var(--white);
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    box-shadow: var(--pageShadow);
+    background-color: #ffffff;
+    margin-bottom: 5px;
+}
+
+.page[size="page-size"] {
+    width: 794px;
+    height: 2245px;
+    overflow: hidden;
+}
